@@ -39,20 +39,7 @@ trace0 = go.Scatter(
 )
 #data = [trace0]
 #py.plot(data, filename = 'temp-scatter', auto_open=True)
-# countrytemp = open('GlobalLandTemperaturesByCountry.csv', 'r')
-# countrytempcsv = csv.reader(countrytemp)
-#
-# germanydate = []
-# germanytemp = []
-# for row in countrytempcsv:
-#     if row[3] == 'Germany':
-#         if row[1] != '':
-#             germanydate.append(row[0])
-#             germanytemp.append(float(row[1]))
-#     else:
-#         pass
-#print germanytemp
-#print germanydate
+# countrytemp = open('GlobalLandTemperature
 #dt = datetime.datetime.strptime("2018-08-07", '%Y-%m-%d')
 #dt2 = datetime.datetime.strptime("8/7/18", '%m/%d/%y')
 mindate = datetime.datetime.strptime("1750-01-01", '%Y-%m-%d').date()
